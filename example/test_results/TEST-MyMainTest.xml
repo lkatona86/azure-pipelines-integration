@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyMainTest" tests="60" skipped="0" failures="0" errors="0" timestamp="2020-07-13T19:03:13" hostname="fv-az692" time="0.151">
+  <properties/>
+  <testcase name="myMainTest10" classname="MyMainTest" time="0.002"/>
+  <testcase name="myMainTest11" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest12" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest13" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest14" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest15" classname="MyMainTest" time="0.0"/>
+  <testcase name="myMainTest16" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest17" classname="MyMainTest" time="0.003"/>
+  <testcase name="myMainTest18" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest19" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest20" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest21" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest22" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest23" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest24" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest25" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest26" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest27" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest28" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest29" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest30" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest1" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest2" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest3" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest4" classname="MyMainTest" time="0.002"/>
+  <testcase name="myMainTest5" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest6" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest7" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest8" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest9" classname="MyMainTest" time="0.006"/>
+  <testcase name="myMainTest10" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest11" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest12" classname="MyMainTest" time="0.003"/>
+  <testcase name="myMainTest13" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest14" classname="MyMainTest" time="0.0"/>
+  <testcase name="myMainTest15" classname="MyMainTest" time="0.0"/>
+  <testcase name="myMainTest16" classname="MyMainTest" time="0.002"/>
+  <testcase name="myMainTest17" classname="MyMainTest" time="0.0"/>
+  <testcase name="myMainTest18" classname="MyMainTest" time="0.002"/>
+  <testcase name="myMainTest19" classname="MyMainTest" time="0.0"/>
+  <testcase name="myMainTest20" classname="MyMainTest" time="0.002"/>
+  <testcase name="myMainTest21" classname="MyMainTest" time="0.002"/>
+  <testcase name="myMainTest22" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest23" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest24" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest25" classname="MyMainTest" time="0.003"/>
+  <testcase name="myMainTest26" classname="MyMainTest" time="0.002"/>
+  <testcase name="myMainTest27" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest28" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest29" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest30" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest1" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest2" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest3" classname="MyMainTest" time="0.002"/>
+  <testcase name="myMainTest4" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest5" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest6" classname="MyMainTest" time="0.002"/>
+  <testcase name="myMainTest7" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest8" classname="MyMainTest" time="0.001"/>
+  <testcase name="myMainTest9" classname="MyMainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

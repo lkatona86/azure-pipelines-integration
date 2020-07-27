@@ -1,0 +1,43 @@
+trigger:
+  - master
+pr:
+  branches:
+    include:
+      - master
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  - group: secrets
+
+stages:
+  - stage: Test
+    jobs:
+      - job: CodeBeamer
+        displayName: "CodeBeamer upload"
+        steps:
+          - script: |
+              echo "Empty job."
+          - task: retina@1
+            inputs:
+              test_xml_folder: 'example/test_results'
+              test_run_name: '$(Build.DefinitionName) $(Build.Reason)'
+              test_run_id: '$(Build.BuildId)'
+              server_url: 'https://demo.azure.codebeamer.com/retina'
+              retina_user: '$(retina_user)'
+              retina_password: '$(retina_password)'
+              test_configuration_id: '1066'
+              test_case_tracker_id: '2259'
+              test_run_tracker_id: '2262'
+          - task: codeBeamer@1
+            inputs:
+              test_xml_folder: 'example/test_results'
+              test_run_name: '$(Build.DefinitionName) $(Build.Reason)'
+              test_run_id: '$(Build.BuildNumber)'
+              server_url: 'https://test.azure.codebeamer.com'
+              cb_user: '$(cb_user)'
+              cb_password: '$(cb_password)'
+              test_configuration_id: '1000'
+              test_case_tracker_id: '3263'
+              test_run_tracker_id: '3266'

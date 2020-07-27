@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 1,
+  "id": "codebeamer",
+  "name": "codeBeamer ALM Connector",
+  "version": "0.2.9",
+  "publisher": "IntlandSoftware",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "codeBeamer ALM - MS Azure DevOps (VSTS) Connector for Test Management",
+  "runsOn": ["Agent", "Server"],
+  "categories": ["Azure Pipelines"],
+  "icons": {
+    "default": "images/cb-icon.png"
+  },
+  "tags": [
+    "agile",
+    "project management",
+    "intland",
+    "retina",
+    "codebeamer",
+    "requirements",
+    "traceability",
+    "test",
+    "xunit"
+  ],
+  "files": [
+    {
+      "path": "codeBeamer"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "codebeamer",
+      "type": "ms.vss-distributed-task.task",
+      "targets": ["ms.vss-distributed-task.tasks"],
+      "properties": {
+        "name": "codeBeamer"
+      }
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "codebeamer-overview.md"
+    }
+  },
+  "galleryFlags": ["Preview", "Public"]
+}

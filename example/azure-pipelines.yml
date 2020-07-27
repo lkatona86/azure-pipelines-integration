@@ -19,14 +19,14 @@ stages:
         steps:
           - script: |
               echo "Empty job."
-          - task: retina@1
-            inputs:
-              test_xml_folder: 'example/test_results'
-              test_run_name: '$(Build.DefinitionName) $(Build.Reason)'
-              test_run_id: '$(Build.BuildId)'
-              server_url: 'https://trial.intland.com/retina'
-              retina_user: '$(retina_user)'
-              retina_password: '$(retina_password)'
-              test_configuration_id: '442490050'
-              test_case_tracker_id: '2655237'
-              test_run_tracker_id: '2655240'
+              - task: codeBeamer@1
+                inputs:
+                  test_xml_folder: 'example/test_results'
+                  test_run_name: '$(Build.DefinitionName) $(Build.Reason)'
+                  test_run_id: '$(Build.BuildId)'
+                  server_url: 'https://saas.codebeamer.com'
+                  cb_user: '$(cb_user)'
+                  cb_password: '$(cb_password)'
+                  test_configuration_id: '2738877'
+                  test_case_tracker_id: '13186151'
+                  test_run_tracker_id: '13186154'

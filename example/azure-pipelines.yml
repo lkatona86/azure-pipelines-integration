@@ -14,8 +14,8 @@ variables:
 stages:
   - stage: Test
     jobs:
-      - job: codeBeamer
-        displayName: "codeBeamer upload"
+      - job: Retina
+        displayName: "Retina upload"
         steps:
           - script: |
               echo "Empty job."

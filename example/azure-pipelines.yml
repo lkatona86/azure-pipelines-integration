@@ -30,3 +30,14 @@ stages:
               test_configuration_id: '3268711'
               test_case_tracker_id: '16265191'
               test_run_tracker_id: '16265080'
+          - task: retina@1
+            inputs:
+              test_xml_folder: 'example/test_results'
+              test_run_name: '$(Build.DefinitionName) $(Build.Reason)'
+              test_run_id: '$(Build.BuildId)'
+              server_url: 'https://trial.codebeamer-x.com'
+              retina_user: '$(retina_user)'
+              retina_password: '$(retina_password)'
+              test_configuration_id: '100498'
+              test_case_tracker_id: '77934'
+              test_run_tracker_id: '77823'

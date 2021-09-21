@@ -35,7 +35,7 @@ stages:
               test_xml_folder: 'example/test_results'
               test_run_name: '$(Build.DefinitionName) $(Build.Reason)'
               test_run_id: '$(Build.BuildId)'
-              server_url: 'https://trial.codebeamer-x.com'
+              server_url: 'https://trial.codebeamer-x.com/cb'
               retina_user: '$(retina_user)'
               retina_password: '$(retina_password)'
               test_configuration_id: '100498'

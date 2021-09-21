@@ -14,8 +14,8 @@ variables:
 stages:
   - stage: Test
     jobs:
-      - job: Retina
-        displayName: "Retina upload"
+      - job: codebeamer
+        displayName: "codebeamer upload"
         steps:
           - script: |
               echo "Empty job."
@@ -24,7 +24,7 @@ stages:
               test_xml_folder: './example/test_results'
               test_run_name: '$(Build.DefinitionName) $(Build.Reason)'
               test_run_id: '$(Build.BuildId)'
-              server_url: 'trial.codebeamer.com'
+              server_url: 'https://trial.codebeamer.com/cb'
               cb_user: 'laszlo.katona'
               cb_password: 'Atlas86!ntland'
               test_configuration_id: '2738877'

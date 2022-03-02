@@ -27,9 +27,9 @@ stages:
               server_url: 'https://trial.codebeamer.com/'
               cb_user: '$(cb_user)'
               cb_password: '$(cb_password)'
-              test_configuration_id: '3268711'
-              test_case_tracker_id: '16265191'
-              test_run_tracker_id: '16265080'
+              test_configuration_id: '3411763'
+              test_case_tracker_id: '17862699'
+              test_run_tracker_id: '17862744'
           - task: retina@1
             inputs:
               test_xml_folder: 'example/test_results'

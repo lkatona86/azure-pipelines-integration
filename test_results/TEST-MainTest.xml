@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="MainTest" tests="60" skipped="0" failures="0" errors="0" timestamp="2020-07-13T19:03:13" hostname="fv-az692" time="0.206">
   <properties/>
-  <testcase name="mainTest1" classname="MainTest" subjects="3411789" time="0.009"/>
+  <testcase name="[REFERENCE:3411789] mainTest1" classname="MainTest" subjects="3411789" time="0.009"/>
   <testcase name="mainTest2" classname="MainTest" time="0.002"/>
   <testcase name="mainTest3" classname="MainTest" time="0.001"/>
   <testcase name="mainTest4" classname="MainTest" time="0.002"/>
